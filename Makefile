@@ -1,5 +1,5 @@
 gen:
-	protoc --go_out=plugins=grpc:pb proto/*.proto
+	protoc --go_out=./pb ./proto/*.proto
 clean:
 	rm  pb/*.go
 run:
